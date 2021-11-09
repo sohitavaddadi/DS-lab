@@ -41,3 +41,22 @@ enter a element to be searched:2
 element found at 1 position
 Process returned 0 (0x0)   execution time : 5.534 s
 Press any key to continue.
+
+// 2 output//
+enter size of a array:4
+enter the elements1
+2
+3
+4
+enter a element to be searched:5
+element not found
+Process returned 0 (0x0)   execution time : 6.743 s
+Press any key to continue.
+ enter size of a array:3
+enter the elements1
+2
+4
+enter a element to be searched:2
+element found at 1 position
+Process returned 0 (0x0)   execution time : 5.534 s
+Press any key to continue.
