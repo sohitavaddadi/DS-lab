@@ -1,0 +1,56 @@
+#include<stdio.h>
+int binary_search(int[],int,int);
+int main()
+{
+int a[10],n,key,pos,i;
+printf("enter size of a array:");
+scanf("%d",&n);
+printf("enter the elements");
+for(i=0;i<n;i++)
+{
+scanf("%d",&a[i]);
+}
+printf("enter a element to be searched:");
+scanf("%d",&key);
+pos=binarysearch(a,n,key);
+if(pos == -1)
+{
+ printf("element not found");
+ }
+ else{
+ printf("element found at %d position", pos);
+ }
+ }
+ int binarysearch (int a[],int beg,int end, int ele){
+  int mid;
+    mid = beg + end /2;
+    if(ele == a[mid]);
+    return mid;
+     if (ele> a[mid])
+    binarysearch(a,mid+1,end,ele);
+        if (ele<a[mid]);
+        else
+  return -1;
+  }
+  
+  //1st output//
+  
+  ize of a array:3
+enter the elements1
+2
+3
+enter a element to be searched:3
+element found at 3 position
+Process returned 0 (0x0)   execution time : 15.606 s
+Press any key to continue.
+
+// 2nd output//
+enter size of a array:3
+enter the elements1
+2
+3
+enter a element to be searched:2
+element found at 2 position
+Process returned 0 (0x0)   execution time : 6.358 s
+Press any key to continue.
+
