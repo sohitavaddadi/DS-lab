@@ -54,7 +54,7 @@ enter size of a array:2
 enter the elements2
 1
 enter a element to be searched:1
-element not found
+element  found at 2 position 
 Process returned 0 (0x0)   execution time : 7.455 s
 Press any key to continue 
 
